@@ -1,0 +1,25 @@
+body {
+    font-family:'Gill Sans MT', Calibri,;
+    background-color: palevioletred;
+    color: powderblue;
+}
+h1{
+    color:plum;
+}
+/*Attribute Selector*/
+a{
+    color:palegreen;
+    text-decoration: none;
+}
+a:hover{
+    color:paleturquoise
+}
+/*Child Selector*/
+ul>li {
+    font-weight: bold;
+}
+/* Sibling Seclector*/
+h1+p{
+    background-color: burlywood;
+    padding:9px;
+    border-radius:7px;
